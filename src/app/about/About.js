@@ -55,7 +55,7 @@ const About = () => {
           >
             documentary
           </a>{" "}
-          about self-directed learning. You can view my channel intro below.
+          about self-directed learning.
         </p>
       </div>
     </div>
