@@ -1,0 +1,21 @@
+.nav-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-link {
+  color: #007cc7;
+  margin: 1rem;
+}
+
+.social-link:hover {
+  color: #4da8da;
+}

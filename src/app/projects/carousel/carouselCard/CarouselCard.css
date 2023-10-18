@@ -1,0 +1,40 @@
+.carousel-card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    background-color: whitesmoke;
+    color:black;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 600px;
+    border-radius: 10px;
+}
+
+.card-body {
+    width: 90%;
+    overflow-y: scroll;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
