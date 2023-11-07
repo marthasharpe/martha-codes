@@ -1,0 +1,32 @@
+.contents-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contents-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 1rem;
+  text-align: center;
+}
+
+.contents-item {
+  padding: 0.5rem;
+  flex: 1;
+  white-space: nowrap;
+  border: 2px solid #4da8da;
+  cursor: pointer;
+}
+
+.contents-item:hover {
+  background-color: #007cc7;
+  border: 2px solid #007cc7;
+}
+
+.contents-link {
+  color: #fff;
+  text-decoration: none;
+}

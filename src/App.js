@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+// import { Snackbar, Alert } from "@mui/material";
 
-function App() {
+import Title from "./components/title/Title.js";
+import SocialMedia from "./components/social-media/SocialMedia.js";
+import About from "./components/about/About.js";
+import Contents from "./components/contents/Contents.js";
+import LearnToCode from "./components/learning-to-code/LearnToCode.js";
+// import Projects from "./projects/Projects";
+// import Form from "./form/Form";
+
+import "./App.css";
+import ProfessionalWork from "./components/professional-work/ProfessionalWork.js";
+import RVLife from "./components/rv-life/RVLife.js";
+import AlternativeEd from "./components/alternative-ed/AlternativeEd.js";
+
+const App = () => {
+  // const [open, setOpen] = React.useState(false);
+  // const [message, setMessage] = React.useState("");
+  // const [severity, setSeverity] = React.useState("info");
+
+  // const handleClose = () => setOpen(false);
+
+  // const handleOpenSnackbar = (severity, message) => {
+  //   setMessage(message);
+  //   setSeverity(severity);
+  //   setOpen(true);
+  // };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="App" className="app-container">
+      <Title />
+      <SocialMedia />
+      <Contents />
+      <About />
+      <LearnToCode />
+      <ProfessionalWork />
+      <RVLife />
+      <AlternativeEd />
+      {/* <Form handleOpenSnackbar={handleOpenSnackbar} /> */}
+      {/* <Snackbar open={open} autoHideDuration={4000} onClose={handleClose}>
+        <Alert severity={severity}>{message}</Alert>
+      </Snackbar> */}
+      {/* <Projects /> */}
     </div>
   );
-}
+};
 
 export default App;

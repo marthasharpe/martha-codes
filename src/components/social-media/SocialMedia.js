@@ -1,15 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faYoutube,
   faGithub,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import "./Navigation.css";
+import "./SocialMedia.css";
 import { Tooltip } from "@mui/material";
 
-const Navigation = () => {
+const SocialMedia = () => {
   return (
     <div className="nav-container">
       <nav className="nav-icons">
@@ -43,22 +43,19 @@ const Navigation = () => {
             <FontAwesomeIcon icon={faYoutube} size="lg" className="link" />
           </a>
         </Tooltip>
-        <Tooltip title="Email" placement="top">
+        <Tooltip title="Twitter" placement="top">
           <a
-            href="mailto:marthasharpe2020@gmail.com"
+            href="https://twitter.com/SharpeMartha"
             rel="noopener noreferrer"
             target="_blank"
             className="link"
           >
-            <FontAwesomeIcon icon={faEnvelope} size="lg" className="link" />
+            <FontAwesomeIcon icon={faTwitter} size="lg" className="link" />
           </a>
         </Tooltip>
       </nav>
-      {/* <a href="#mini-fellowships" className="link">
-        Mini Fellowships
-      </a> */}
     </div>
   );
 };
 
-export default Navigation;
+export default SocialMedia;

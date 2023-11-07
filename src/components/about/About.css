@@ -1,0 +1,17 @@
+.coffee {
+  width: 200px;
+  border-radius: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
